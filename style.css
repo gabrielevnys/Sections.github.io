@@ -7,14 +7,17 @@ body {
 }
 
 .banner-wrapper {
-  margin: 0 auto;
+  text-align: center;
 }
 
 .current-banner {
-  width: 100%;
+  max-width: 90%;
+  height:auto;
+  margin: 0 auto;
 }
 
 .banner-buttons {
+  margin-top: 10px;
   text-align: center;
 }
 
@@ -103,7 +106,6 @@ body {
 
 .product-container {
   width: 20%;
-  margin-right: 20px;
 }
 
 .product-item {
@@ -184,156 +186,92 @@ body {
   border: 1px solid #000;
 }
 
+.team-section {
+  margin-top: 40px;
+  margin-bottom: 80px;
+  background-color: #e8e8e8;
+}
+
+.team-title {
+  font-size: 30px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #000;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.team-wrapper {
+  padding: 50px 10px;
+}
+
+.team-wrapper ul {
+  padding: 0;
+  list-style: none;
+  margin: 0 auto;
+  display: flex;
+}
+
+.team-container {
+  flex: auto;
+  width: 200px;
+}
+
+.team-member {
+  text-align: center;
+  font-weight: bold;
+}
+
+.team-member img {
+  width:100%;
+}
+
+
 @media (max-width: 600px) { /** for mobile and smaller device **/
-  .categories-section {
-    background-color: #e0e0e0;
-    margin: 0 auto;
-    padding-bottom: 30px;
+  .current-banner {
+    max-width: 100%;
+    height:auto;
   }
 
   .categories-section h2 {
-    text-align: center;
-    font-size: 30px;
-    padding:20px;
-    color: white;
-    background-color: black;
+    font-size: 25px;
   }
 
-
   .shop-categories {
-    list-style: none;
-    display: block;
-    padding: 20px;
     text-align: center;
+    flex-direction: column;
   }
 
   .shop-categories li {
-    align-items: center;
+    line-height: 50px;
   }
-
-  .dress, .pants {
-    padding-bottom: 10px;
-  }
-
 
   .category img {
-    width: 80%;
-    border-radius: 8px;
-    filter: drop-shadow(5px 5px 5px #222);
-    transition: transform .3s;
-  }
-
-
-  .category img:hover {
-    opacity: 0.7;
-    transform: scale(0.9);
-    filter:none;
-  }
-  
-  .product-section {
-    width: 100%;
-    margin-top: 130px;
-    margin-bottom: 130px;
+    width: 70%;
   }
 
   .product-section h3 {
-    text-align:center;
     font-size: 25px;
     width: 60%;
-    margin: 0 auto;
-    border-bottom: 2px solid #000;
-  }
-
-  .product-wrapper {
-    list-style: none;
-    flex-wrap: wrap;
-    padding: 50px 0px;
-    margin-bottom: 150px;
   }
 
   .product-wrapper li {
-    width:50%;
-  }
-
-  .product-item {
-    padding: 5px;
-    margin-top: 20px;
-  }
-
-  .product-item h4 {
-      border-bottom: 1px solid #989898;
-      padding-bottom: 5px;
-      margin-bottom: 0;
-  }
-
-  .product-item img {
-    max-width: 100%;
-  }
-
-  .product-description {
-    font-size: 12px;
-  }
-
-  .product-price {
-    text-align: right;
-    font-weight: bold;
-  }
-
-  .colorsize-description{
-    background-color: #000;
-    color:white;
-    font-size: 12px;
-    visibility: hidden;
-    max-width: 100%;
-    opacity: 0;
-  }
-
-  .product-item:hover {
-    border: 1px solid #000;
-  }
-
-  .product-item:hover .colorsize-description{
-    visibility: visible;
-    opacity: 1;
-    text-align: center;
-    display:block;
-    transition: 0.2s;
-  }
-
-  .shop-buttons {
-    margin-top: 10px;
-    max-width: 100%;
-    padding: 5px;
-    position: relative;
-  }
-
-  .shop-btn {
-    text-align: center;
-    text-decoration: none;
-    padding: 15px 20px;
-    display: block;
-
-  }
-
-  .cart {
-    margin-top:10px;
-    color: #303030;
-    background-color: #c0c0c0;
-  }
-
-  .order {
-    color: #fff;
-    background-color: #000;
-  }
-
-  .shop-btn:hover {
-    background-color: #fff;
-    color: #000;
-    transition: 0.2s;
-    border: 1px solid #000;
+    float:left;
+    width:46%;
   }
 }
 
+@media (min-width: 601px) { /** for tablet and larger device **/
+  .product-wrapper li {
+    float:left;
+    width:25%;
+  }
+}
+
+@media (min-width: 1600px) { /** for desktop and larger device **/
+
+}
 /*category img 1 <!--https://pixabay.com/photos/close-up-dress-fingers-girl-hand-1844786/--> */
 /*category img 2 <!--https://pixabay.com/photos/jeans-pants-trouser-buttons-2979818/--> */
 /*category img 3 <!--https://pixabay.com/photos/bag-brand-business-map-content-1853847/--> */
