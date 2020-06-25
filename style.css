@@ -11,7 +11,7 @@ body {
 }
 
 .current-banner {
-  width: 50%;
+  max-width: 90%;
   height:auto;
   margin: 0 auto;
 }
@@ -267,12 +267,24 @@ body {
     float:left;
     width:25%;
   }
+  
+  .current-banner {
+    max-width: 60%;
+    height:auto;
+    margin: 0 auto;
+  }
 }
 
 @media (min-width: 1600px) { /** for desktop and larger device **/
   .product-wrapper li {
     float:left;
     width:20%;
+  }
+  
+  .current-banner {
+    max-width: 60%;
+    height:auto;
+    margin: 0 auto;
   }
 }
 /*category img 1 <!--https://pixabay.com/photos/close-up-dress-fingers-girl-hand-1844786/--> */
