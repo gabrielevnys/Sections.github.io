@@ -11,7 +11,7 @@ body {
 }
 
 .current-banner {
-  max-width: 40%;
+  width: 50%;
   height:auto;
   margin: 0 auto;
 }
@@ -270,7 +270,10 @@ body {
 }
 
 @media (min-width: 1600px) { /** for desktop and larger device **/
-
+  .product-wrapper li {
+    float:left;
+    width:20%;
+  }
 }
 /*category img 1 <!--https://pixabay.com/photos/close-up-dress-fingers-girl-hand-1844786/--> */
 /*category img 2 <!--https://pixabay.com/photos/jeans-pants-trouser-buttons-2979818/--> */
