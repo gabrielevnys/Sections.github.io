@@ -7,10 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script type="text/javascript">
     function switchImg1() {
-      document.getElementById("current-banner").src = "assets/promo-bigger.png"
+      document.getElementById("current-banner").src = "assets/promo-ongkir.png"
     }
     function switchImg2() {
-      document.getElementById("current-banner").src = "assets/kamisehat.png"
+      document.getElementById("current-banner").src = "assets/kami-sehat.png"
     }
   </script>
 </head>
@@ -18,12 +18,13 @@
   <main>
     <!--Banner Section -->
     <section class="banner-section">
-      <div class="banner-wrapper">
-        <img src="assets/promo-bigger.png" id="current-banner" class="current-banner">
-        <div class="banner-buttons">
-          <button type="button" onclick="switchImg1()" class="banner-button">1</button>
-          <button type="button" onclick="switchImg2()" class="banner-button">2</button>
-        </div>
+      <div class="banner-wrapper" id="banner-wrapper">
+        <img src="assets/promo-ongkir.png" id="current-banner" class="current-banner">
+      </div>
+      <div class="banner-buttons">
+        <button type="button" onclick="switchImg1()" class="banner-button">1</button>
+        <button type="button" onclick="switchImg2()" class="banner-button">2</button>
+      </div>
     </section>
     <!--End of Banner Section-->
     <!--Product Categories Section (Second Section)-->
@@ -50,8 +51,8 @@
         <li class="product-container">
           <div class="product-item">
             <img src="assets/dress.jpg">
-            <h4>Najwa Long Dress</h4>
-            <p class="product-description">Maxi Dress + Free Hijab</p>
+            <h4>Najwa Dress</h4>
+            <p class="product-description">Maxi Dress + Hijab</p>
             <p class="product-price">Rp 200.000</p>
             <p class="colorsize-description">
               Available in 5 colors (Size S, M, L)</p>
@@ -65,7 +66,7 @@
           <div class="product-item">
             <img src="assets/jumpsuit.jpg">
             <h4>Salwa Jumpsuit</h4>
-            <p class="product-description">Long Jumpsuit + Free Inner White Top</p>
+            <p class="product-description">Long Jumpsuit + Top</p>
             <p class="product-price">Rp 250.000</p>
             <p class="colorsize-description">
               Available in 4 colors (Size S, M, L)</p>
@@ -112,7 +113,7 @@
           <div class="product-item">
             <img src="assets/pants2.jpg">
             <h4>Chelsea Culottes</h4>
-            <p class="product-description">Culottes Made of Premium Cotton</p>
+            <p class="product-description">Culottes Made of Cotton</p>
             <p class="product-price">Rp 180.000</p>
             <p class="colorsize-description">
               Available in 4 colors (Size S, M, L)</p>
@@ -126,7 +127,7 @@
           <div class="product-item">
             <img src="assets/pants3.jpg">
             <h4>Heidi Pants</h4>
-            <p class="product-description">Mid-Waist Pants (Premium)</p>
+            <p class="product-description">Mid-Waist Pants</p>
             <p class="product-price">Rp 180.000</p>
             <p class="colorsize-description">
               Available in 6 colors (Size S, M, L)</p>
@@ -144,11 +145,11 @@
         <li class="product-container">
           <div class="product-item">
             <img src="assets/bag.jpg">
-            <h4>Instagram Sling Bag</h4>
-            <p class="product-description">Sling Bag Made of Premium Wool</p>
+            <h4>Instagram Bag</h4>
+            <p class="product-description">Sling Bag Made of Wool</p>
             <p class="product-price">Rp 70.000</p>
             <p class="colorsize-description">
-              Available in 4 colors (Small and Big)</p>
+              Available in 4 colors</p>
           </div>
           <div class="shop-buttons">
             <a href="#" class="shop-btn order">Order</a>
@@ -159,10 +160,10 @@
           <div class="product-item">
             <img src="assets/necklace.jpg">
             <h4>Steffi Necklace</h4>
-            <p class="product-description">Necklace Made of Colorful Beads and Stones</p>
+            <p class="product-description">Colorful Necklace</p>
             <p class="product-price">Rp 60.000</p>
             <p class="colorsize-description">
-              Available in 8 types (One size)</p>
+              Available in 8 types</p>
           </div>
           <div class="shop-buttons">
             <a href="#" class="shop-btn order">Order</a>
@@ -173,7 +174,7 @@
           <div class="product-item">
             <img src="assets/pouch.jpg">
             <h4>Claire Pouch</h4>
-            <p class="product-description">Beautiful Pouch + Free Small Wallet</p>
+            <p class="product-description">Beautiful Pouch + Wallet</p>
             <p class="product-price">Rp 50.000</p>
             <p class="colorsize-description">
               Available in 4 colors (One size)</p>
@@ -187,6 +188,45 @@
       <!--End of Bags & Accessories Product List-->
     </section>
     <!--End of Product Items Section-->
+    <!--Team Section-->
+    <section class="team-section">
+      <h3 class="team-title">OUR TEAM</h3>
+      <div class="team-wrapper">
+        <ul>
+          <li class="team-container">
+            <div class="team-member">
+              <img src="assets/boy.png">
+              <p>Alvin</p>
+            </div>
+          </li>
+          <li class="team-container">
+            <div class="team-member">
+              <img src="assets/girl.png">
+              <p>Velia</p>
+            </div>
+          </li>
+          <li class="team-container">
+            <div class="team-member">
+              <img src="assets/boy.png">
+              <p>Najib</p>
+            </div>
+          </li>
+          <li class="team-container">
+            <div class="team-member">
+              <img src="assets/girl.png">
+              <p>Gabriele</p>
+            </div>
+          </li>
+          <li class="team-container">
+            <div class="team-member">
+              <img src="assets/boy.png">
+              <p>Yandi</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!--End of Team Section-->
   </main>
 </body>
 </html>
