@@ -204,6 +204,7 @@ body {
     list-style: none;
     display: block;
     padding: 20px;
+    text-align: center;
   }
 
   .shop-categories li {
