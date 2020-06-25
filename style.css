@@ -211,13 +211,13 @@ body {
   }
 
   .dress, .pants {
-    padding-bottom: 5px;
+    padding-bottom: 10px;
   }
 
 
   .category img {
-    width: 100%;
-    border-radius: 10px;
+    width: 80%;
+    border-radius: 8px;
     filter: drop-shadow(5px 5px 5px #222);
     transition: transform .3s;
   }
