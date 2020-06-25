@@ -184,6 +184,37 @@ body {
   border: 1px solid #000;
 }
 
+@media (max-width: 600px) { /** for mobile and smaller device **/
+  .categories-section {
+    background-color: #e0e0e0;
+    margin: 0 auto;
+    padding-bottom: 40px;
+  }
+
+  .categories-section h2 {
+    text-align: center;
+    font-size: 30px;
+    padding:20px;
+    color: white;
+    background-color: black;
+  }
+
+
+  .shop-categories {
+    list-style: none;
+    padding: 20px;
+  }
+
+  .shop-categories li {
+    align-items: center;
+  }
+
+  .dress, .pants {
+    padding-right: 5px;
+  }
+
+}
+
 /*category img 1 <!--https://pixabay.com/photos/close-up-dress-fingers-girl-hand-1844786/--> */
 /*category img 2 <!--https://pixabay.com/photos/jeans-pants-trouser-buttons-2979818/--> */
 /*category img 3 <!--https://pixabay.com/photos/bag-brand-business-map-content-1853847/--> */
