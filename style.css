@@ -254,7 +254,10 @@ body {
   }
 
   .product-container {
-    width: 100%;
+     width: 100%;
+  }
+
+  .product-wrapper li {
     flex: 0 50%;
   }
 
