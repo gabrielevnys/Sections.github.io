@@ -212,6 +212,14 @@ body {
   .dress, .pants {
     padding-right: 5px;
   }
+  
+    .category img {
+    object-fit: cover;
+    width: 90%;
+    border-radius: 10px;
+    filter: drop-shadow(5px 5px 5px #222);
+    transition: transform .3s;
+  }
 
 }
 
