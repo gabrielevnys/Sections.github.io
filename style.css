@@ -248,13 +248,13 @@ body {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     padding: 50px 0px;
     margin-bottom: 150px;
   }
 
   .product-container {
-    flex: 1 0 50%;
+    flex: auto;
+    width:50%;
   }
 
   .product-item {
