@@ -246,14 +246,12 @@ body {
 
   .product-wrapper {
     list-style: none;
-    display: flex;
     flex-wrap: wrap;
     padding: 50px 0px;
     margin-bottom: 150px;
   }
 
-  .product-container {
-    flex: auto;
+  .product-wrapper li {
     width:50%;
   }
 
