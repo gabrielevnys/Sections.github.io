@@ -229,6 +229,113 @@ body {
     transform: scale(0.9);
     filter:none;
   }
+  
+  .product-section {
+    width: 100%;
+    margin-top: 130px;
+    margin-bottom: 130px;
+  }
+
+  .product-section h3 {
+    text-align:center;
+    font-size: 25px;
+    padding: 15px 0px;
+    width: 50%;
+    margin: 0 auto;
+    border-bottom: 2px solid #000;
+  }
+
+  .product-wrapper {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 0px;
+    margin-bottom: 150px;
+  }
+
+  .product-container {
+    width: 20%;
+    margin-right: 20px;
+  }
+
+  .product-item {
+    padding: 5px;
+    margin-top: 20px;
+  }
+
+  .product-item h4 {
+      border-bottom: 1px solid #989898;
+      padding-bottom: 5px;
+      margin-bottom: 0;
+  }
+
+  .product-item img {
+    max-width: 100%;
+  }
+
+  .product-description {
+    font-size: 12px;
+  }
+
+  .product-price {
+    text-align: right;
+    font-weight: bold;
+  }
+
+  .colorsize-description{
+    background-color: #000;
+    color:white;
+    font-size: 12px;
+    visibility: hidden;
+    max-width: 100%;
+    opacity: 0;
+  }
+
+  .product-item:hover {
+    border: 1px solid #000;
+  }
+
+  .product-item:hover .colorsize-description{
+    visibility: visible;
+    opacity: 1;
+    text-align: center;
+    display:block;
+    transition: 0.2s;
+  }
+
+  .shop-buttons {
+    margin-top: 10px;
+    max-width: 100%;
+    padding: 5px;
+    position: relative;
+  }
+
+  .shop-btn {
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+
+  }
+
+  .cart {
+    margin-top:10px;
+    color: #303030;
+    background-color: #c0c0c0;
+  }
+
+  .order {
+    color: #fff;
+    background-color: #000;
+  }
+
+  .shop-btn:hover {
+    background-color: #fff;
+    color: #000;
+    transition: 0.2s;
+    border: 1px solid #000;
+  }
 }
 
 /*category img 1 <!--https://pixabay.com/photos/close-up-dress-fingers-girl-hand-1844786/--> */
