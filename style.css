@@ -12,6 +12,7 @@ body {
 
 .banner-section .banner-wrapper {
   text-align: center;
+  margin: 0 auto;
 }
 
 .banner-section .banner-wrapper .current-banner {
