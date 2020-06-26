@@ -231,6 +231,17 @@ body {
   width:100%;
 }
 
+@media (max-width: 300px) {
+  
+  .product-item h4 {
+    font-size: 12px;
+  }
+  
+  .product-description {
+    font-size: 10px;
+  }
+  
+}
 
 @media (max-width: 600px) { /** for mobile and smaller device **/
   .current-banner {
